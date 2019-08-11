@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
@@ -30,7 +31,8 @@ const Navbar = () => {
             </div>
 
             <div className="icons">
-
+                <a href="https://www.facebook.com/salonambiancegresham/" target="blank"><FontAwesomeIcon icon={['fab', 'facebook']} size="3x" className="social" /></a>
+                <a href="https://www.instagram.com/salonambiancegresham/?hl=en" target="blank"><FontAwesomeIcon icon={['fab', 'instagram']} size="3x" className="social" /></a>
             </div>
           </nav>
         </div>
