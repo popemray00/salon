@@ -5,6 +5,7 @@ class Stylist extends React.Component {
     render() {
       return (
         <div>
+          <h1 id="perm">Meet Our Stylist</h1>
           <br/>
             <div className="container-fluid">
               <div className="row">

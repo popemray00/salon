@@ -7,6 +7,7 @@ class Services extends React.Component {
         <div id="perm">
             <h1>PERM...</h1>
             <p>$1000</p>
+            <h1>WE ONLY DO PERMS</h1>
         </div>
       )
     }
