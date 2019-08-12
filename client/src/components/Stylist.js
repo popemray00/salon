@@ -1,25 +1,57 @@
 import React from 'react';
+import "./Home.css";
 
 class Stylist extends React.Component {
     render() {
       return (
         <div>
-            <div className="media border p-3">
-              <img src="images/salonhome.png" alt="John Doe" className="mr-3 mt-3 rounded-circle" />
-              <div className="media-body">
-                <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-                <p>Lorem ipsum...</p>
+          <br/>
+            <div className="container-fluid">
+              <div className="row">
+                <div id="card" className="col-12 col-sm-3">
+                <img id="pic" src="images/michael.jpg" alt="John Doe"/>
+                </div>
+                <div id="bio" className="col-12 col-sm-9">
+                  <h1>Michael Pope</h1>
+                  <p>Hellooooooooooooooooooooooooooooooooo</p>
+                </div>
               </div>
             </div>
-
-            <div class="media">
-              <img src="images/salonhome.png" class="align-self-center mr-3" />
-              <div class="media-body">
-                <h4>Media Middle</h4>
-                <p>Lorem ipsum...</p>
+            <br/>
+            <div className="container-fluid">
+              <div className="row">
+                <div id="bio" className="col-12 col-sm-9">
+                  <h1>Michael Pope</h1>
+                  <p>Hellooooooooooooooooooooooooooooooooo</p>
+                </div>
+                <div id="card" className="col-12 col-sm-3">
+                  <img id="pic" src="images/michael.jpg" alt="John Doe"/>
+                </div>
               </div>
             </div>
-
+            <div className="container-fluid">
+              <div className="row">
+                <div id="card" className="col-12 col-sm-3">
+                <img id="pic" src="images/michael.jpg" alt="John Doe"/>
+                </div>
+                <div id="bio" className="col-12 col-sm-9">
+                  <h1>Michael Pope</h1>
+                  <p>Hellooooooooooooooooooooooooooooooooo</p>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <div className="container-fluid">
+              <div className="row">
+                <div id="bio" className="col-12 col-sm-9">
+                  <h1>Michael Pope</h1>
+                  <p>Hellooooooooooooooooooooooooooooooooo</p>
+                </div>
+                <div id="card" className="col-12 col-sm-3">
+                  <img id="pic" src="images/michael.jpg" alt="John Doe"/>
+                </div>
+              </div>
+            </div>
         </div>
       )
     }

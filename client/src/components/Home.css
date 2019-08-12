@@ -7,3 +7,16 @@
     position: relative;
     
 }
+
+.row {
+    border-bottom: black;
+}
+
+#bio {
+    text-align: center;
+}
+
+#pic {
+    height: 320px;
+    width: 100%;
+}
