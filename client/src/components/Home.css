@@ -20,3 +20,36 @@
     height: 320px;
     width: 100%;
 }
+
+#footer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+}
+
+#address {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#social {
+    color: rgba(0, 0, 0, 0.767);
+}
+
+#perm{
+    text-align: center;
+}

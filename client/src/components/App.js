@@ -4,7 +4,6 @@ import Navbar from './Navbar';
 import About from './About';
 import Stylist from './Stylist';
 import Services from './Services';
-import Contact from './Contact';
 import Home from "./Home";
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -21,8 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/stylist" component={Stylist} />
-        <Route exact path="/services" component={Services} />
-        <Route exact path="/contact" component={Contact} /> 
+        <Route exact path="/services" component={Services} /> 
     </div>
   </Router>
   );
