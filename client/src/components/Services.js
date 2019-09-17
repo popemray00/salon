@@ -10,6 +10,7 @@ class Services extends React.Component {
             <h1>WE ONLY DO PERMS</h1>
             <h2>Now we do Mullets to!</h2>
             <h3>more services coming soon</h3>
+            <h3>wigs</h3>
         </div>
       )
     }
