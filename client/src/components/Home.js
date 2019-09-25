@@ -26,7 +26,7 @@ class Home extends React.Component {
                 <h3>Phone Number:</h3>
                 <h4>503-674-7474</h4>
                 <h3>Email Address:</h3>
-                <h4>Salonambiancegresham@gmail.com</h4>
+                <h4>salonambiancegresham@gmail.com</h4>
               </div>
               
               <div id="social" className="col-lg-3">
