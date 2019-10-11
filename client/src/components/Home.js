@@ -6,8 +6,15 @@ class Home extends React.Component {
     render() {
       return (
         <div>
-          <div className="Home"></div>
-          
+          <div className="Home">
+            <div className="Main-img"></div>
+            <div className="About">
+              <h2>About Us!</h2>
+              <p>This is the story abput this salon.
+              </p>
+            </div>
+          </div>
+
           <div id="footer" className="container-fluid">
             <div className="row">
               <div className="col-lg-3">
