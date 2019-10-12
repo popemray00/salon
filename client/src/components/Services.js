@@ -4,17 +4,18 @@ import "./Services.css";
 class Services extends React.Component {
     render() {
       return (
+        <div>
         <div class="container">
           <div className="Header">
           <h2>Services!</h2>
           <p>All services are priced a la carte.</p>            
           </div>
-          <table class="table table-striped table-dark">
+          <table class="table table-striped table-light">
             <thead>
               <tr>
-                <th>Service</th>
+                <th className="title">Service</th>
                 <th></th>
-                <th>Starting Price</th>
+                <th className="title">Starting Price</th>
               </tr>
             </thead>
             <tbody>
@@ -88,55 +89,52 @@ class Services extends React.Component {
                 <td>Consultation Recommended</td>
                 <td>$85</td>
               </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Facial Waxing</td>
-                <td></td>
-                <td>$15</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Brow Specialist</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Brow Tinting</td>
-                <td></td>
-                <td>$15</td>
-              </tr>
-              <tr>
-                <td>Shaping</td>
-                <td></td>
-                <td>$15</td>
-              </tr>
-              <tr>
-                <td>Lash Tinting</td>
-                <td></td>
-                <td>$25</td>
-              </tr>
-
-              
-              
-
-
-            </tbody>
+              </tbody>
           </table>
         </div>
-                
+
+        <div class="container">
+        <table class="table table-striped table-light">
+          <thead>
+            <tr>
+              <th className="title">Facial/Brow</th>
+              <th></th>
+              <th className="title">Starting Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Facial Waxing</td>
+              <td></td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td className="title">Brow Specialist</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Brow Tinting</td>
+              <td></td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td>Shaping</td>
+              <td></td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td>Lash Tinting</td>
+              <td></td>
+              <td>$25</td>
+            </tr>
+    </tbody>
+  </table>
+</div>
+            
+
+        
+        </div>    
       )
     }
 }
