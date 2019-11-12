@@ -5,6 +5,7 @@ class About extends React.Component {
       return (
         <h1>About Us!</h1>
         <p>lorem
+          solid
         </p>
 
       )
