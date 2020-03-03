@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 class Home extends React.Component {
     render() {
@@ -14,6 +16,24 @@ class Home extends React.Component {
               </p>
             </div>
           </div>
+
+          
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image1.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image8.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+            </Carousel>  
 
           <div id="footer" className="container-fluid">
             <div className="row">
@@ -47,4 +67,4 @@ class Home extends React.Component {
     }
 }    
 
-export default Home;
+  export default Home;
