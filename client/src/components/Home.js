@@ -22,7 +22,35 @@ class Home extends React.Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="images/image1.jpg"
+                    src="images/image7.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image5.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image4.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image2.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image6.jpg"
                     alt="Third slide"
                     />
                 </Carousel.Item>
@@ -30,6 +58,20 @@ class Home extends React.Component {
                     <img
                     className="d-block w-100"
                     src="images/image8.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image1.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="images/image3.jpg"
                     alt="Third slide"
                     />
                 </Carousel.Item>
